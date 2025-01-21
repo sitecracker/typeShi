@@ -1,0 +1,20 @@
+let hide_button = document.getElementById("hide_button")
+let show_button = document.getElementById("show_button")
+let boxesContainer = document.querySelector(".boxes-container")
+let paragrapg = document.getElementById("paragrapg")
+
+hide_button.addEventListener("click", ()=>{
+    boxesContainer.classList.add("hide");
+    paragrapg.classList.remove("hide");
+
+    hide_button.style.backgroundColor = "green";
+    show_button.style.backgroundColor = "yellow";
+})
+
+show_button.addEventListener("click", ()=>{
+    boxesContainer.classList.remove("hide");
+    paragrapg.classList.add("hide")
+
+    hide_button.style.backgroundColor = "yellow";
+    show_button.style.backgroundColor = "green";
+})
