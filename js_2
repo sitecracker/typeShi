@@ -1,0 +1,33 @@
+
+let form = document.querySelector("form");
+let saveButton = document.querySelector(".add-button");
+let resetButton = document.querySelector(".reset-button");
+
+
+saveButton.addEventListener("click", ()=>{
+    let email = form.elements["email"].value;
+    let firstname = form.elements["firstname"].value;
+    let secondname = form.elements["secondname"].value;
+
+    let entry = document.createElement("div");
+    let paragraph = document.createElement("p")
+    
+    entry.className = "entry";
+    paragraph.className = "paragraph"
+    
+    paragraph.textContent = `${firstname}`
+    entry.textContent = `Email: ${email};  Secondname: ${secondname}.`
+
+    form.elements["email"].value = ""
+    form.elements["firstname"].value = ""
+    form.elements["secondname"].value = ""
+
+    form.insertBefore(entry, resetButton)
+    form.insertBefore(paragraph, entry)
+
+    entry.style.border = "1px solid gray";
+    entry.style.padding = "10px";
+
+
+})
+  
