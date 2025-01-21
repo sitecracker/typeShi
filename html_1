@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div id="show_hide_buttons" class="flex">
+                <button type="button" id="hide_button">Hide</button>
+                <button type="button" id="show_button">Show</button>
+            </div>
+
+            <p id="paragrapg" class="hide">Hide Section</p>
+
+
+            <div class="flex boxes-container">
+                <div class="boxes">
+                    <img src="./img/for_html.jpg" alt="Nozo Nickle" class="box-image">
+                    <p class="box-title">Nozo Nickle</p>
+                    <p class="box-subtitle">Director</p>
+                </div>
+                <div class="boxes">
+                    <img src="./img/for_html.jpg" alt="Nozo Nickle" class="box-image">
+                    <p class="box-title">Nozo Nickle</p>
+                    <p class="box-subtitle">Director</p>
+                </div>
+                <div class="boxes">
+                    <img src="./img/for_html.jpg" alt="Nozo Nickle" class="box-image">
+                    <p class="box-title">Nozo Nickle</p>
+                    <p class="box-subtitle">Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
