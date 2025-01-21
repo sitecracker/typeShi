@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.boxes{
+    border: 1px solid grey; 
+    text-align: center; 
+    max-width: 200px; 
+    margin: 10px; /* Расстояние между боксами, делает красивый отступ слева и справа */
+}
+
+
+.box-image {
+    width: 100%; 
+    height: auto; /* Сохраняет пропорции изображения */
+    display: block; /* Убирает лишние отступы */
+    margin-bottom: 10px;
+}
+
+.box-title {
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+
+.box-subtitle {
+    font-size: 14px; 
+    color: gray; 
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; 
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#hide_button{
+    background-color: yellow;
+    width: 80px;
+    height: 30px;
+}
+
+#show_button{
+    background-color: green;
+    width: 80px;
+    height: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+
+#paragrapg{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+#show_hide_buttons{
+    border-bottom: 1px solid grey;
+}
