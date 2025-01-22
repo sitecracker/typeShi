@@ -4,19 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>third</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <form action="">
-        <input type="text" id="textId" placeholder="Enter somting">
-        <button type="button" id="btn">Add</button>
 
+    <section id="banner">
+        <div class="ovelay"></div>
+        <div class="content">
+            <div class="content-style">
+                <form action="">
+                    <input type="text" placeholder="Enter something" id="textId">
+                    <button type="button" id="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="result-style">
         <ul id="result"></ul>
+    </div>
 
-        <script src="./app.js"></script>
-    </form>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
