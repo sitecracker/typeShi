@@ -6,12 +6,8 @@ btn.addEventListener("click", ()=>{
     let li = document.createElement("li")
     li.textContent = textId.value;
     result.appendChild(li)
-    textId.value=""
+    textId.value = ""
 
-    result.classList.add("result");
-
-    result.style.border = "1px solid black"
-    li.style.padding = "3px";
-
-
+    result.style.border = "1px solid grey"
+    li.style.padding = "5px"
 })
