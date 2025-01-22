@@ -1,7 +1,78 @@
-#result{
-    list-style-type: none;
+*{
+    margin: 0;
     padding: 0;
-    width: 150px;
-    font-size: 15px;
-    font-weight: bold;
+    box-sizing: 0;
+}
+
+#banner{
+    background-image: url(https://scsa.ge/wp-content/uploads/2017/07/wallup-192827-e1500032335439.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.ovelay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: aliceblue;
+    opacity: 0.7;
+    z-index: 1;
+    bottom: 0;
+}
+
+
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+}
+
+
+.content-style{
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#textId{
+    padding-left: 10px;
+    height: 30px;
+    width: 220px;
+}
+
+#btn{
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+}
+
+#result-style{
+    max-width: 400px;
+    margin: auto;
+}
+
+#result{
+    margin-top: 10px;
+    list-style-type: none;
 }
